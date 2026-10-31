@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🎬 MovieRec</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#movies">Movies</a>
+        <a href="#recommend">Recommend</a>
+        <a href="#favorites">Favorites</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <button class="theme-btn" onclick="changeTheme()">☀️ / 🌙</button>
+</header>
+
+
+<!-- HOME -->
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <p class="small-title">SMART MOVIE DISCOVERY</p>
+
+        <h1>Find Your Perfect Movie 🎥</h1>
+
+        <p>
+            Select your favourite genre and our recommendation
+            system will suggest movies for you.
+        </p>
+
+        <a href="#recommend">
+            <button class="main-btn">Get Recommendations</button>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- SEARCH -->
+<section class="search-section">
+
+    <h2>🔍 Search Movies</h2>
+
+    <p>Search a movie by its name.</p>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Enter movie name..."
+        onkeyup="searchMovie()"
+    >
+
+</section>
+
+
+<!-- MOVIES -->
+<section id="movies">
+
+    <div class="section-heading">
+        <p>EXPLORE</p>
+        <h2>🔥 Popular Movies</h2>
+    </div>
+
+    <div class="movie-container" id="movieContainer">
+
+
+        <!-- Movie 1 -->
+        <div class="movie-card"
+             data-name="taare zameen par"
+             data-genre="family education drama">
+
+            <div class="poster poster1">⭐</div>
+
+            <div class="movie-info">
+
+                <span class="tag">Education</span>
+
+                <h3>Taare Zameen Par</h3>
+
+                <p>2007 • Family • Drama</p>
+
+                <div class="rating">⭐ 8.3 / 10</div>
+
+                <p class="description">
+                    A meaningful story about a child, education
+                    and understanding individual abilities.
+                </p>
+
+                <button onclick="showDetails('Taare Zameen Par')">
+                    Details
+                </button>
+
+                <button onclick="addFavorite('Taare Zameen Par')">
+                    ❤️ Favorite
+                </button>
+
+            </div>
+        </div>
+
+
+        <!-- Movie 2 -->
+        <div class="movie-card"
+             data-name="baahubali"
+             data-genre="action drama">
+
+            <div class="poster poster2">⚔️</div>
+
+            <div class="movie-info">
+
+                <span class="tag">Action</span>
+
+                <h3>Baahubali</h3>
+
+                <p>2015 • Action • Drama</p>
+
+                <div class="rating">⭐ 8.0 / 10</div>
+
+                <p class="description">
+                    An epic action drama involving kingdoms,
+                    courage and adventure.
+                </p>
+
+                <button onclick="showDetails('Baahubali')">
+                    Details
+                </button>
+
+                <button onclick="addFavorite('Baahubali')">
+                    ❤️ Favorite
+                </button>
+
+            </div>
+        </div>
+
+
+        <!-- Movie 3 -->
+        <div class="movie-card"
+             data-name="kgf"
+             data-genre="action drama">
+
+            <div class="poster poster3">🔥</div>
+
+            <div class="movie-info">
+
+                <span class="tag">Action</span>
+
+                <h3>KGF</h3>
+
+                <p>2018 • Action • Drama</p>
+
+                <div class="rating">⭐ 8.2 / 10</div>
+
+                <p class="description">
+                    An action drama following Rocky's journey
+                    for power and success.
+                </p>
+
+                <button onclick="showDetails('KGF')">
+                    Details
+                </button>
+
+                <button onclick="addFavorite('KGF')">
+                    ❤️ Favorite
+                </button>
+
+            </div>
+        </div>
+
+
+        <!-- Movie 4 -->
+        <div class="movie-card"
+             data-name="dangal"
+             data-genre="sports family drama">
+
+            <div class="poster poster4">🏅</div>
+
+            <div class="movie-info">
+
+                <span class="tag">Sports</span>
+
+                <h3>Dangal</h3>
+
+                <p>2016 • Sports • Drama</p>
+
+                <div class="rating">⭐ 8.3 / 10</div>
+
+                <p class="description">
+                    An inspiring sports drama about wrestling,
+                    determination and family.
+                </p>
+
+                <button onclick="showDetails('Dangal')">
+                    Details
+                </button>
+
+                <button onclick="addFavorite('Dangal')">
+                    ❤️ Favorite
+                </button>
+
+            </div>
+        </div>
+
+
+        <!-- Movie 5 -->
+        <div class="movie-card"
+             data-name="english vinglish"
+             data-genre="family comedy drama">
+
+            <div class="poster poster5">📚</div>
+
+            <div class="movie-info">
+
+                <span class="tag">Family</span>
+
+                <h3>English Vinglish</h3>
+
+                <p>2012 • Family • Comedy</p>
+
+                <div class="rating">⭐ 7.8 / 10</div>
+
+                <p class="description">
+                    A warm story about confidence,
+                    learning and personal growth.
+                </p>
+
+                <button onclick="showDetails('English Vinglish')">
+                    Details
+                </button>
+
+                <button onclick="addFavorite('English Vinglish')">
+                    ❤️ Favorite
+                </button>
+
+            </div>
+        </div>
+
+
+        <!-- Movie 6 -->
+        <div class="movie-card"
+             data-name="hichki"
+             data-genre="education drama">
+
+            <div class="poster poster6">🎓</div>
+
+            <div class="movie-info">
+
+                <span class="tag">Education</span>
+
+                <h3>Hichki</h3>
+
+                <p>2018 • Education • Drama</p>
+
+                <div class="rating">⭐ 7.5 / 10</div>
+
+                <p class="description">
+                    An inspiring story about a teacher
+                    overcoming challenges in education.
+                </p>
+
+                <button onclick="showDetails('Hichki')">
+                    Details
+                </button>
+
+                <button onclick="addFavorite('Hichki')">
+                    ❤️ Favorite
+                </button>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- RECOMMENDATION -->
+<section id="recommend" class="recommend-section">
+
+    <div class="section-heading">
+        <p>SMART SUGGESTIONS</p>
+        <h2>🤖 Movie Recommendation</h2>
+    </div>
+
+    <p>What type of movie would you like to watch?</p>
+
+    <select id="genre">
+
+        <option value="">-- Select Genre --</option>
+
+        <option value="action">Action</option>
+
+        <option value="family">Family</option>
+
+        <option value="education">Education</option>
+
+        <option value="sports">Sports</option>
+
+        <option value="drama">Drama</option>
+
+    </select>
+
+    <button class="main-btn" onclick="recommendMovie()">
+        Recommend Movies
+    </button>
+
+
+    <div id="recommendationResult"></div>
+
+</section>
+
+
+<!-- FAVORITES -->
+<section id="favorites" class="favorite-section">
+
+    <div class="section-heading">
+
+        <p>YOUR COLLECTION</p>
+
+        <h2>❤️ My Favorite Movies</h2>
+
+    </div>
+
+    <p>
+        Click the Favorite button on any movie to add it here.
+    </p>
+
+    <div id="favoriteList">
+
+        <p>No favorite movies added yet.</p>
+
+    </div>
+
+    <button onclick="clearFavorites()">
+        Clear Favorites
+    </button>
+
+</section>
+
+
+<!-- HOW IT WORKS -->
+<section class="working">
+
+    <div class="section-heading">
+
+        <p>SYSTEM FLOW</p>
+
+        <h2>⚙️ How Recommendation Works</h2>
+
+    </div>
+
+    <div class="steps">
+
+        <div class="step">
+
+            <span>1</span>
+
+            <h3>Select Genre</h3>
+
+            <p>
+                User selects their preferred movie genre.
+            </p>
+
+        </div>
+
+
+        <div class="arrow">→</div>
+
+
+        <div class="step">
+
+            <span>2</span>
+
+            <h3>System Checks</h3>
+
+            <p>
+                The system checks available movie information.
+            </p>
+
+        </div>
+
+
+        <div class="arrow">→</div>
+
+
+        <div class="step">
+
+            <span>3</span>
+
+            <h3>Match</h3>
+
+            <p>
+                Movies with the selected genre are identified.
+            </p>
+
+        </div>
+
+
+        <div class="arrow">→</div>
+
+
+        <div class="step">
+
+            <span>4</span>
+
+            <h3>Recommendation</h3>
+
+            <p>
+                Matching movies are recommended to the user.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="about">
+
+    <div class="section-heading">
+
+        <p>MINI PROJECT</p>
+
+        <h2>ℹ️ About the Project</h2>
+
+    </div>
+
+    <div class="about-box">
+
+        <h3>Movie Recommendation System</h3>
+
+        <p>
+            The Movie Recommendation System is a web-based mini
+            project that helps users discover movies according
+            to their interests.
+        </p>
+
+        <p>
+            The user selects a preferred genre such as Action,
+            Family, Education or Sports. The system compares the
+            selected preference with available movie information
+            and displays matching movies.
+        </p>
+
+        <h3>Technologies Used</h3>
+
+        <div class="technology">
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- DETAILS POPUP -->
+<div id="movieModal" class="modal">
+
+    <div class="modal-content">
+
+        <span class="close" onclick="closeDetails()">
+            &times;
+        </span>
+
+        <h2 id="modalTitle">Movie Details</h2>
+
+        <p id="modalDetails"></p>
+
+    </div>
+
+</div>
+
+
+<footer>
+
+    <h3>🎬 Movie Recommendation System</h3>
+
+    <p>Mini Project | HTML • CSS • JavaScript</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
