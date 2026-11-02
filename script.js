@@ -1,107 +1,585 @@
 const movies = [
 {
- title:"Toy Story",poster: "PASTE_POSTER_IMAGE_URL_HERE", year:1995, genre:"Animation / Adventure", director:"John Lasseter",
- producer:"Bonnie Arnold, Ralph Guggenheim",
- actors:"Tom Hanks (Woody), Tim Allen (Buzz Lightyear), Don Rickles (Mr. Potato Head), Jim Varney (Slinky Dog)",
- actress:"Annie Potts (Bo Peep), Laurie Metcalf (Andy's Mother)",
- intro:"Toy Story is an animated adventure film produced by Pixar. It shows the secret life of toys when humans are not around. The story mainly focuses on Woody, a cowboy toy, and Buzz Lightyear, a space ranger toy.",
- story:"Woody is Andy's favourite toy. One day, Andy receives a new toy named Buzz Lightyear. Woody feels jealous because Buzz becomes very popular. Due to an accident, Woody and Buzz get separated from Andy. They face many difficulties and dangerous situations. During their journey, they understand each other and become good friends. Finally, they work together to return to Andy.",
- action:"Woody and Buzz get lost, meet different toys, escape from difficult situations and try to return home. Their adventure teaches them teamwork and friendship.",
- message:"True friendship is more important than jealousy and competition. We should accept others and respect their qualities.",
- motivation:"The movie motivates us to control jealousy, build friendships and help others. It teaches that every person has a special value.",
- conclusion:"Toy Story is an entertaining movie with a meaningful message. It teaches friendship, teamwork, kindness and acceptance.",
- uses:"Useful for teaching children friendship, sharing, teamwork, imagination and emotional understanding."
+ 
+ title: "Toy Story",
+ year: 1995,
+ genre: "Animation / Adventure / Comedy",
+ director: "John Lasseter",
+ producer: "Bonnie Arnold, Ralph Guggenheim",
+
+ actors: "Tom Hanks as Woody, Tim Allen as Buzz Lightyear, Don Rickles as Mr. Potato Head, Jim Varney as Slinky Dog, Wallace Shawn as Rex, John Ratzenberger as Hamm",
+ actress: "Annie Potts as Bo Peep, Laurie Metcalf as Andy's Mother",
+
+ intro: `Toy Story is a famous animated adventure film released in 1995.
+It was produced by Pixar Animation Studios and released by Walt Disney Pictures.
+It is known as the first fully computer-animated feature film.
+The movie introduces a world where toys have their own lives and feelings.
+The toys become alive when human beings are not watching them.
+The main character of the movie is a cowboy toy named Woody.
+Woody is the favourite toy of a young boy named Andy.
+Woody enjoys being the leader of Andy's toys.
+One day, Andy receives a new space ranger toy named Buzz Lightyear.
+Buzz believes that he is a real space ranger on an important mission.
+His arrival changes the lives of all the toys in Andy's room.
+Woody starts feeling jealous because Buzz receives more attention.
+The movie explores friendship, jealousy, acceptance and teamwork.
+It uses humour, adventure and emotional scenes to entertain viewers.
+Toy Story teaches that everyone has value and deserves friendship.
+The film is suitable for children, families and people of different ages.`,
+
+ story: `The story begins in the bedroom of a young boy named Andy.
+His toys secretly come alive whenever humans leave the room.
+Woody, a cowboy doll, is the leader and favourite toy of the group.
+Andy receives a new toy called Buzz Lightyear as a birthday present.
+Buzz becomes popular among the toys, and Woody starts feeling jealous.
+During an argument, Woody and Buzz accidentally fall out of the window.
+They become separated from Andy and face many unexpected problems.
+They get trapped in the house of a boy named Sid, who damages toys.
+Woody and Buzz work together to escape and find their way back to Andy.
+After many adventures, they become close friends and return to Andy.`,
+
+ action: `Woody tries to maintain his position as Andy's favourite toy.
+Buzz arrives and introduces a new challenge for Woody.
+The toys face an unexpected accident and become separated from Andy.
+Woody and Buzz travel through unfamiliar places and face dangerous situations.
+They meet Sid and experience frightening moments in his house.
+Finally, they cooperate, escape from danger and return to Andy together.`,
+
+ message: `The main message of Toy Story is that true friendship is more important than jealousy.
+We should not hate others because they receive attention or appreciation.
+Every person has different qualities and deserves respect.
+Teamwork helps people solve difficult problems.
+We should accept changes and learn to adjust to new situations.
+Friendship becomes stronger when people trust and support one another.`,
+
+ motivation: `Toy Story motivates us to become kind and helpful towards others.
+It teaches us to control jealousy and develop a positive attitude.
+The movie encourages us to accept new people and build friendships.
+It shows that difficult situations can be solved through teamwork.
+It reminds us that every individual has importance and special qualities.`,
+
+ conclusion: `Toy Story is an entertaining and meaningful animated adventure film.
+It presents the importance of friendship through the characters Woody and Buzz.
+Their journey shows how jealousy can create problems between friends.
+They gradually understand each other and learn to work together.
+The movie teaches children about kindness, trust and cooperation.
+It also explains that accepting others makes relationships stronger.
+Its humour and emotional story make it enjoyable for families.
+Overall, Toy Story gives a valuable lesson about friendship and teamwork.`,
+
+ uses: `Toy Story can be used as an educational movie for children.
+Teachers can use its story to explain friendship and sharing.
+Parents can discuss jealousy, emotions and positive behaviour with children.
+The movie can help children understand teamwork and cooperation.
+It can also encourage imagination and creative thinking.
+Students can learn how to solve problems and support their friends.
+It is useful for classroom discussions about values and relationships.
+The film can be used in animation studies to understand computer-generated characters.
+It also provides examples of storytelling, character development and visual creativity.
+Overall, Toy Story is useful for entertainment, education and learning social values.`
 },
 {
- title:"Hum Saath-Saath Hain", year:1999, genre:"Family / Drama", director:"Sooraj R. Barjatya",
+ title:"Hum Saath-Saath Hain",
+ year:1999,
+ genre:"Family / Drama",
+ director:"Sooraj R. Barjatya",
  producer:"Rajshri Productions",
  actors:"Salman Khan (Prem), Saif Ali Khan (Vinod), Mohnish Bahl (Vivek), Mahesh Thakur (Anand)",
  actress:"Sonali Bendre (Preeti), Karisma Kapoor (Sapna), Tabu (Sadhana), Neelam Kothari (Damyanti)",
- intro:"Hum Saath-Saath Hain is a family drama about love, respect and unity. It shows the importance of family relationships and living together with understanding.",
- story:"The film follows the family of Ramkishan and Mamta. Their children live happily together. However, misunderstandings and jealousy create problems in the family. Mamta begins to worry about her own children and their future. The family faces separation and emotional difficulties. Finally, love, sacrifice and understanding help bring the family together again.",
- action:"The family celebrates festivals, supports one another, faces misunderstandings and tries to solve family problems. The characters learn the importance of trust and sacrifice.",
- message:"Family unity, love and respect are more valuable than money and property.",
- motivation:"The movie motivates us to respect parents, support siblings and solve problems through communication instead of anger.",
- conclusion:"Hum Saath-Saath Hain teaches that a happy family is built through love, trust, sacrifice and cooperation.",
- uses:"Useful for teaching family values, respect for elders, relationships, cooperation and social responsibility."
+
+ intro:`Hum Saath-Saath Hain is a popular Indian family drama film.
+ The movie was directed by Sooraj R. Barjatya.
+ It was released in the year 1999.
+ The film presents the importance of family relationships.
+ It focuses on love, respect, unity and sacrifice.
+ The story is based on a large and loving family.
+ Ramkishan is the head of the family.
+ His wife Mamta takes care of the family.
+ Their children share a strong relationship with one another.
+ The family celebrates festivals and special occasions together.
+ The film shows traditional Indian family values.
+ It explains how misunderstandings can affect relationships.
+ It also shows the importance of trust and forgiveness.
+ The characters face emotional and family-related problems.
+ The movie gives a beautiful message about staying together.
+ It teaches that family love is more valuable than wealth.`,
+
+ story:`The story begins with Ramkishan and Mamta living happily with their children.
+ Their family believes in love, respect and helping one another.
+ The children grow up and begin their own family lives.
+ Prem, Vinod, Vivek and Anand have different personalities and responsibilities.
+ Mamta begins to worry about the future of her own children.
+ Her feelings create misunderstandings within the family.
+ Some family members begin to feel separated from one another.
+ The family experiences emotional pain because of these misunderstandings.
+ Love, truth and sacrifice slowly help them understand each other.
+ Finally, the family learns the value of unity and comes together again.`,
+
+ action:`The movie shows family celebrations and traditional festivals.
+ The family members help each other during difficult situations.
+ Misunderstandings create tension between different family members.
+ The characters face emotional problems and difficult decisions.
+ They learn to communicate and understand each other's feelings.
+ Their actions show the importance of love, trust and sacrifice.`,
+
+ message:`The main message of the movie is that family unity is very important.
+ Love and respect make family relationships stronger.
+ We should not allow jealousy to destroy our relationships.
+ Parents and children should understand each other's feelings.
+ Forgiveness and communication can solve many family problems.`,
+
+ motivation:`The movie motivates us to respect our parents and elders.
+ It encourages us to support our brothers and sisters.
+ It teaches us to remain united during difficult situations.
+ It inspires us to solve misunderstandings through communication.
+ It reminds us that a loving family is a great strength.`,
+
+ conclusion:`Hum Saath-Saath Hain is a meaningful family entertainment film.
+ It presents the importance of Indian family traditions.
+ The story explains the value of love and understanding.
+ It shows that misunderstandings can create distance between people.
+ The characters learn the importance of forgiveness and sacrifice.
+ The film teaches us to respect every family member.
+ It reminds us that money cannot replace family relationships.
+ Overall, it gives a positive message about family unity and happiness.`,
+
+ uses:`This movie can be used to understand family relationships.
+ It helps students learn the importance of respect and cooperation.
+ It can be used for discussions about family values.
+ It explains how communication can solve misunderstandings.
+ It creates awareness about caring for parents and elders.
+ It is useful for teaching social values and emotional understanding.`
 },
 {
- title:"Baghban", year:2003, genre:"Family / Drama", director:"Ravi Chopra",
+ title:"Baghban",
+ year:2003,
+ genre:"Family / Drama",
+ director:"Ravi Chopra",
  producer:"B. R. Chopra",
  actors:"Amitabh Bachchan (Raj Malhotra), Salman Khan (Alok), Aman Verma (Ajay)",
  actress:"Hema Malini (Pooja Malhotra), Mahima Chaudhry (Arpita), Rimi Sen (Payal)",
- intro:"Baghban is an emotional family drama about parents and their children. It explains the importance of love, care and respect for elderly people.",
- story:"Raj and Pooja Malhotra spend their lives raising their children with love and care. After retirement, they expect support from their children. Instead, their children do not want to take responsibility for them. Raj and Pooja are separated and face many emotional difficulties. Their adopted son Alok supports them and gives them respect. The story highlights the pain of neglected parents.",
- action:"Raj and Pooja adjust to difficult living situations, face neglect and struggle with loneliness. Alok stands by them and helps them rebuild their lives.",
- message:"Parents sacrifice a lot for their children and deserve love, respect and care in return.",
- motivation:"The movie motivates us to care for our parents and understand the feelings of elderly people.",
- conclusion:"Baghban gives a strong message about family responsibility and the importance of respecting parents.",
- uses:"Useful for creating awareness about elderly care, family responsibility, respect and emotional support."
+
+ intro:`Baghban is an emotional Indian family drama film.
+ The movie was released in the year 2003.
+ It was directed by Ravi Chopra.
+ The film stars Amitabh Bachchan and Hema Malini.
+ It focuses on the relationship between parents and children.
+ Raj Malhotra and Pooja Malhotra are the main characters.
+ They spend their entire lives raising their children.
+ They work hard to provide their children with a good future.
+ The parents expect love and support during their old age.
+ However, their children do not understand their feelings.
+ The movie shows the problems faced by elderly parents.
+ It explains the importance of respect and family responsibility.
+ It also presents the emotional pain of loneliness.
+ The film encourages people to care for their parents.
+ It teaches that parents need love, attention and support.
+ The story gives a strong message about human relationships.`,
+
+ story:`Raj and Pooja Malhotra have spent many years raising their children.
+ They provide their children with education, love and financial support.
+ After retirement, Raj hopes to live happily with his family.
+ However, their children are not ready to take responsibility for them.
+ Raj and Pooja are forced to live separately.
+ They experience loneliness and emotional difficulties.
+ Their children fail to understand the sacrifices made by their parents.
+ Alok, who loves and respects them, supports them during this difficult time.
+ Raj and Pooja continue to face their problems with patience.
+ Their story highlights the importance of love and respect for parents.`,
+
+ action:`Raj and Pooja try to adjust to their new living situations.
+ Their children make decisions without properly considering their feelings.
+ The parents experience loneliness and emotional pain.
+ Alok gives them support and encourages them to remain strong.
+ Raj expresses his feelings through his writing.
+ The family situation teaches the importance of responsibility and care.`,
+
+ message:`Parents make many sacrifices to give their children a better life.
+ They deserve love, respect and care during old age.
+ Children should not forget their parents' efforts.
+ Elderly people need emotional support and companionship.
+ Family responsibility should not end when children become independent.`,
+
+ motivation:`The movie motivates us to respect and care for our parents.
+ It encourages us to spend quality time with elderly family members.
+ It teaches us to understand the feelings of other people.
+ It inspires us to take responsibility for our family.
+ It reminds us that kindness and love are more important than money.`,
+
+ conclusion:`Baghban is an emotional movie about parents and children.
+ It shows the difficulties faced by elderly parents.
+ The story explains how neglect can cause emotional pain.
+ Raj and Pooja represent the sacrifices made by many parents.
+ Alok shows the importance of love and respect.
+ The film encourages children to care for their parents.
+ It gives a meaningful message about family responsibility.
+ Overall, Baghban teaches us to value our parents throughout life.`,
+
+ uses:`This movie can be used to create awareness about elderly care.
+ It helps students understand the responsibilities of children.
+ It is useful for discussions about family relationships.
+ It teaches respect for parents and senior citizens.
+ It explains the importance of emotional support.
+ It can encourage people to build caring and responsible families.`
 },
-{
- title:"Dangal", year:2016, genre:"Sports / Biography", director:"Nitesh Tiwari",
+ {
+ title:"Dangal",
+ year:2016,
+ genre:"Sports / Biography",
+ director:"Nitesh Tiwari",
  producer:"Aamir Khan, Kiran Rao, Siddharth Roy Kapur",
  actors:"Aamir Khan (Mahavir Singh Phogat), Aparshakti Khurana (Omkar)",
  actress:"Fatima Sana Shaikh (Geeta Phogat), Sanya Malhotra (Babita Kumari)",
- intro:"Dangal is a sports drama inspired by the lives of wrestler Geeta Phogat and Babita Kumari. It shows how determination and hard work can help people achieve their dreams.",
- story:"Mahavir Singh Phogat is a former wrestler who wants his children to become wrestlers. He trains his daughters Geeta and Babita despite social criticism. The girls face difficult training, competition and pressure. Geeta slowly becomes a successful wrestler and competes at the international level. Her journey shows the power of discipline and family support.",
- action:"The movie shows wrestling practice, physical training, competitions and important matches. Geeta and Babita work hard to improve their skills and overcome challenges.",
- message:"Girls and boys deserve equal opportunities. Hard work and dedication can help anyone achieve success.",
- motivation:"The movie motivates students and sports players to stay disciplined, work hard and never give up on their dreams.",
- conclusion:"Dangal is an inspiring film about women's empowerment, sports and determination.",
- uses:"Useful for promoting gender equality, fitness, sports education, discipline and confidence."
+
+ intro:`Dangal is an Indian sports drama film released in 2016.
+ It was directed by Nitesh Tiwari.
+ The movie is inspired by the lives of wrestler Geeta Phogat and Babita Kumari.
+ Aamir Khan plays the role of Mahavir Singh Phogat.
+ The story focuses on wrestling and women's empowerment.
+ Mahavir Singh Phogat is a former wrestler.
+ He dreams of winning a gold medal for India.
+ He wants to achieve his dream through his children.
+ He discovers that his daughters have wrestling talent.
+ Geeta and Babita begin their wrestling training.
+ Their training is difficult and requires strong discipline.
+ They face criticism from people in their village.
+ Their father continues to support their sports journey.
+ The film shows the importance of equal opportunities.
+ It explains that girls can achieve success in sports.
+ The movie inspires people through hard work and determination.`,
+
+ story:`Mahavir Singh Phogat is a former wrestler who dreams of winning a gold medal for India.
+ He initially hopes that his son will fulfil his dream.
+ Later, he discovers the wrestling talent of his daughters Geeta and Babita.
+ He decides to train them in wrestling despite social criticism.
+ The girls begin a difficult routine of exercise and practice.
+ They face many challenges during their training.
+ Geeta gradually becomes a successful wrestler.
+ She competes in national and international competitions.
+ Babita also works hard and achieves success in wrestling.
+ Their journey shows the importance of dedication and family support.`,
+
+ action:`Mahavir trains his daughters through regular wrestling practice.
+ Geeta and Babita learn different wrestling techniques.
+ They participate in local and national competitions.
+ Geeta faces strong opponents during important matches.
+ The girls improve their performance through discipline and practice.
+ Their sporting journey brings pride to their family and country.`,
+
+ message:`Girls and boys should receive equal opportunities.
+ Talent is more important than gender.
+ Hard work and discipline help people achieve their dreams.
+ Parents should encourage the abilities of their children.
+ Sports teach confidence, patience and teamwork.`,
+
+ motivation:`The movie motivates students to work hard towards their goals.
+ It inspires girls to believe in their abilities.
+ It teaches us to remain disciplined during difficult times.
+ It encourages people to learn from failure and improve.
+ It shows that determination can turn dreams into reality.`,
+
+ conclusion:`Dangal is an inspiring film about sports and determination.
+ It presents the achievements of two talented women wrestlers.
+ The story explains the importance of discipline and practice.
+ Mahavir's support helps his daughters develop their abilities.
+ Geeta and Babita prove that girls can achieve great success.
+ The film promotes gender equality and confidence.
+ It encourages young people to participate in sports.
+ Overall, Dangal gives a strong message about courage and hard work.`,
+
+ uses:`This movie can be used for sports education and motivation.
+ It creates awareness about women's participation in sports.
+ It helps students understand the importance of physical fitness.
+ It can be used to discuss gender equality.
+ It teaches discipline, confidence and goal setting.
+ It encourages young people to develop their sporting abilities.`
 },
-{
- title:"3 Idiots", year:2009, genre:"Comedy / Drama", director:"Rajkumar Hirani",
+ {
+ title:"3 Idiots",
+ year:2009,
+ genre:"Comedy / Drama",
+ director:"Rajkumar Hirani",
  producer:"Vidhu Vinod Chopra",
  actors:"Aamir Khan (Rancho), R. Madhavan (Farhan), Sharman Joshi (Raju), Boman Irani (Virus)",
  actress:"Kareena Kapoor Khan (Pia), Mona Singh (Mona)",
- intro:"3 Idiots is an educational comedy-drama about college life, friendship and the pressure of studies. It explains why learning and understanding are more important than marks.",
- story:"Three engineering students, Rancho, Farhan and Raju, become close friends in college. Rancho loves learning and asks questions, while Farhan and Raju struggle with family expectations and academic pressure. Their college director believes in strict competition. Through many experiences, the friends learn to follow their interests and face their fears. Years later, they reunite and discover the truth about Rancho.",
- action:"The friends attend classes, perform experiments, face exams and deal with college challenges. Their funny and emotional experiences help them understand education and life.",
- message:"Learn to understand concepts instead of studying only for marks. Follow your passion and do not allow fear to control your life.",
- motivation:"The movie motivates students to think creatively, ask questions, develop skills and believe in themselves.",
- conclusion:"3 Idiots is an entertaining educational film that gives a powerful message about friendship and meaningful learning.",
- uses:"Useful for discussing student stress, education methods, creativity, career choices and friendship."
+
+ intro:`3 Idiots is a popular Indian comedy-drama film.
+ The movie was released in the year 2009.
+ It was directed by Rajkumar Hirani.
+ The film is based on college life and engineering education.
+ It focuses on friendship, learning and career choices.
+ The story follows three engineering students.
+ Their names are Rancho, Farhan and Raju.
+ They study together at an engineering college.
+ Rancho believes that learning should be based on understanding.
+ Farhan is interested in photography but studies engineering.
+ Raju faces pressure because of his family responsibilities.
+ The college environment creates academic and personal pressure.
+ The film questions the traditional system of education.
+ It explains the importance of creativity and practical knowledge.
+ The movie teaches students to follow their interests and passions.`,
+
+ story:`Rancho, Farhan and Raju meet while studying at an engineering college.
+ They become close friends and share many experiences.
+ Rancho believes in learning concepts instead of memorising answers.
+ Farhan wants to become a wildlife photographer.
+ Raju struggles with fear, family expectations and academic pressure.
+ Their college director, Virus, believes strongly in competition and marks.
+ The friends face many funny and emotional situations.
+ Their friendship helps them overcome different challenges.
+ Years later, Farhan and Raju search for their missing friend Rancho.
+ They finally discover the truth about his life and achievements.`,
+
+ action:`The three friends attend engineering classes and perform experiments.
+ Rancho questions traditional teaching methods.
+ Farhan and Raju face pressure about their future careers.
+ The students take part in different college activities.
+ Their friendship helps them handle difficult situations.
+ They learn important lessons through practical experiences.`,
+
+ message:`Education should develop knowledge and practical skills.
+ Students should understand concepts instead of memorising everything.
+ Marks are important, but they are not the only measure of success.
+ Everyone should have the freedom to choose a suitable career.
+ Friendship and support help people face difficult situations.`,
+
+ motivation:`The movie motivates students to follow their interests.
+ It encourages people to ask questions and think creatively.
+ It teaches students not to fear failure.
+ It inspires learners to develop practical skills.
+ It reminds us to work with passion and confidence.`,
+
+ conclusion:`3 Idiots is an entertaining movie with an important educational message.
+ It presents the challenges faced by college students.
+ The story highlights the value of true friendship.
+ Rancho teaches the importance of understanding and creativity.
+ Farhan learns to follow his passion.
+ Raju learns to face his fears with confidence.
+ The film encourages students to think beyond marks.
+ Overall, it teaches that learning and happiness are both important.`,
+
+ uses:`This movie can be used for student awareness programmes.
+ It helps teachers discuss modern teaching methods.
+ It is useful for understanding academic pressure.
+ It encourages practical learning and creativity.
+ It can support career guidance discussions.
+ It teaches friendship, teamwork and confidence.`
 },
 {
- title:"Hichki", year:2018, genre:"Drama / Education", director:"Siddharth P. Malhotra",
+ title:"Hichki",
+ year:2018,
+ genre:"Drama / Education",
+ director:"Siddharth P. Malhotra",
  producer:"Maneesh Sharma",
  actors:"Harsh Mayar (Aatish), Neeraj Kabi (Principal), Sachin Pilgaonkar (Khan Sir)",
  actress:"Rani Mukerji (Naina Mathur), Supriya Pilgaonkar (Sudha Mathur)",
- intro:"Hichki is an inspirational educational drama. It follows a teacher who has Tourette syndrome and wants to prove that every student can learn.",
- story:"Naina Mathur dreams of becoming a teacher. She faces rejection because of her repeated involuntary sounds. Finally, she gets a chance to teach a group of students who are considered difficult by the school. At first, the students do not respect her. Naina uses creative teaching methods and understands their problems. Slowly, the students improve and begin believing in themselves.",
- action:"Naina uses practical activities, experiments and creative classroom methods. She builds trust with students and helps them face social and academic challenges.",
- message:"Every person has the ability to learn. A teacher should understand students instead of judging them.",
- motivation:"The movie motivates people to accept their differences, face challenges confidently and work hard towards their goals.",
- conclusion:"Hichki shows that patience, confidence and good teaching can change students' lives.",
- uses:"Useful for inclusive education, teacher training, classroom management, confidence building and awareness about disabilities."
+
+ intro:`Hichki is an inspirational Indian educational drama film.
+ It was released in the year 2018.
+ The movie was directed by Siddharth P. Malhotra.
+ Rani Mukerji plays the main character Naina Mathur.
+ The story focuses on teaching, education and confidence.
+ Naina dreams of becoming a successful school teacher.
+ She has Tourette syndrome, which causes involuntary sounds and movements.
+ Because of her condition, she faces rejection during job interviews.
+ Some people do not understand her condition.
+ She continues trying to achieve her dream.
+ Finally, she gets an opportunity to teach a school class.
+ Her students come from difficult social and economic backgrounds.
+ Many people believe that these students cannot achieve success.
+ Naina decides to understand their problems.
+ She uses creative and practical teaching methods.
+ The film shows the power of patience and inclusive education.`,
+
+ story:`Naina Mathur has always wanted to become a teacher.
+ She faces rejection because of her Tourette syndrome.
+ After many difficulties, she receives a teaching opportunity.
+ She is given a class of students who are considered difficult.
+ The students initially refuse to respect their new teacher.
+ Naina understands that each student has different problems.
+ She uses interesting activities to make learning easier.
+ Slowly, the students begin to trust and respect her.
+ They work hard and show improvement in their studies.
+ Their journey proves that the right guidance can change lives.`,
+
+ action:`Naina enters the classroom and begins teaching her students.
+ The students create problems because they do not trust her.
+ She uses experiments and practical activities to explain lessons.
+ She builds a friendly relationship with the class.
+ The students face challenges and work to improve their performance.
+ Naina supports them and helps them believe in themselves.`,
+
+ message:`Every student has the ability to learn and improve.
+ A person's condition should not decide their future.
+ Teachers should understand students before judging them.
+ Education should provide equal opportunities to everyone.
+ Patience and confidence can bring positive changes.`,
+
+ motivation:`The movie motivates people to accept their differences.
+ It encourages teachers to support every student.
+ It teaches us to face rejection with confidence.
+ It inspires students to believe in their abilities.
+ It reminds us that determination can overcome many challenges.`,
+
+ conclusion:`Hichki is an inspiring movie about education and confidence.
+ It presents the struggles of a teacher with Tourette syndrome.
+ Naina refuses to give up on her teaching dream.
+ She proves that good teaching needs patience and understanding.
+ Her students learn to trust themselves and work hard.
+ The film supports inclusive and equal education.
+ It teaches society to respect people with different abilities.
+ Overall, Hichki shows that a good teacher can change lives.`,
+
+ uses:`This movie can be used in teacher training programmes.
+ It creates awareness about inclusive education.
+ It helps students understand different learning needs.
+ It encourages respect for people with disabilities.
+ It supports discussions about classroom management.
+ It teaches patience, equality and positive communication.`
 },
 {
- title:"12th Fail", year:2023, genre:"Biography / Drama", director:"Vidhu Vinod Chopra",
+ title:"12th Fail",
+ year:2023,
+ genre:"Biography / Drama",
+ director:"Vidhu Vinod Chopra",
  producer:"Vidhu Vinod Chopra",
  actors:"Vikrant Massey (Manoj Kumar Sharma), Anant V. Joshi (Pritam Pandey)",
  actress:"Medha Shankar (Shraddha Joshi), Priyanshu Chatterjee (Dushyant Singh)",
- intro:"12th Fail is an inspirational film based on the life of IPS officer Manoj Kumar Sharma. It shows the importance of hard work, honesty and determination.",
- story:"Manoj comes from a poor family and faces many difficulties in his education. After failing his 12th standard examination, he decides to improve his life. He travels to Delhi and prepares for the UPSC examination. He faces financial problems, failures and personal challenges. With support from his friends and Shraddha, he continues studying. His hard work finally helps him achieve his dream.",
- action:"The movie shows Manoj's struggles, preparation, failures, friendships and repeated efforts to pass competitive examinations.",
- message:"Failure is not the end of life. Honesty, patience and hard work can create new opportunities.",
- motivation:"The movie motivates students to stay focused, learn from mistakes and continue working towards their goals.",
- conclusion:"12th Fail is a powerful example of courage and determination. It teaches that success requires patience and consistent effort.",
- uses:"Useful for student motivation, competitive exam awareness, career guidance and understanding the value of honesty."
+
+ intro:`12th Fail is an inspirational Indian biographical drama film.
+ The movie was released in the year 2023.
+ It was directed by Vidhu Vinod Chopra.
+ The film is based on the book written by Anurag Pathak.
+ Vikrant Massey plays the role of Manoj Kumar Sharma.
+ The story is inspired by the real-life journey of an IPS officer.
+ Manoj comes from a financially poor family.
+ He faces many problems during his school education.
+ He fails his 12th standard examination.
+ Instead of giving up, he decides to improve his life.
+ He travels to Delhi to prepare for competitive examinations.
+ He faces financial difficulties and many personal challenges.
+ His journey includes failure, friendship and hard work.
+ He meets people who guide and support him.
+ The film highlights honesty and determination.
+ It teaches that failure can become the beginning of success.`,
+
+ story:`Manoj Kumar Sharma belongs to a poor family in Chambal.
+ He faces difficulties during his school education.
+ He fails his 12th standard examination but does not lose hope.
+ He decides to prepare for the UPSC civil services examination.
+ He moves to Delhi and struggles to manage his expenses.
+ He works hard while preparing for his competitive examination.
+ He meets Shraddha Joshi and receives emotional support.
+ Manoj faces failures but continues improving his preparation.
+ His honesty and determination help him move forward.
+ Finally, he achieves his dream of becoming an IPS officer.`,
+
+ action:`Manoj faces difficult situations during his education.
+ He travels to Delhi to begin his examination preparation.
+ He studies for long hours and manages financial problems.
+ He learns from his mistakes and improves his knowledge.
+ He develops friendships and receives support from others.
+ He continues his preparation despite repeated difficulties.`,
+
+ message:`Failure does not mean that life has ended.
+ Honesty and hard work are important for success.
+ Education can create new opportunities.
+ We should learn from mistakes instead of losing hope.
+ Every person deserves a chance to improve their future.`,
+
+ motivation:`The movie motivates students to work towards their dreams.
+ It encourages people to remain honest in difficult situations.
+ It teaches us to learn from failure.
+ It inspires students to prepare with patience and discipline.
+ It reminds us that determination can change our lives.`,
+
+ conclusion:`12th Fail is an inspiring film about education and determination.
+ It presents the difficult journey of Manoj Kumar Sharma.
+ His story shows that financial problems do not end our dreams.
+ He faces failure but continues working towards his goal.
+ His honesty and patience help him move forward.
+ The film gives hope to students preparing for examinations.
+ It teaches that success requires continuous effort.
+ Overall, it gives a powerful message to never give up.`,
+
+ uses:`This movie can be used for student motivation programmes.
+ It helps students understand competitive examinations.
+ It is useful for career guidance and goal setting.
+ It teaches honesty and responsibility.
+ It encourages students to manage failure positively.
+ It creates awareness about dedication and consistent study.`
 },
 {
- title:"M.S. Dhoni: The Untold Story", year:2016, genre:"Sports / Biography", director:"Neeraj Pandey",
+ title:"M.S. Dhoni: The Untold Story",
+ year:2016,
+ genre:"Sports / Biography",
+ director:"Neeraj Pandey",
  producer:"Arun Pandey, Fox Star Studios",
  actors:"Sushant Singh Rajput (M.S. Dhoni), Anupam Kher (Pan Singh Dhoni), Rajesh Sharma (Keshav Banerjee)",
  actress:"Kiara Advani (Sakshi Dhoni), Disha Patani (Priyanka Jha)",
- intro:"This biographical sports film tells the story of Indian cricketer Mahendra Singh Dhoni. It shows his journey from a small town to international cricket.",
- story:"The film follows Dhoni from his childhood in Ranchi. He initially works as a railway ticket collector while pursuing his cricket dream. He faces family expectations, career difficulties and personal loss. His talent and hard work help him enter the Indian cricket team. Later, he becomes one of India's most successful cricket captains.",
- action:"The film shows cricket practice, domestic matches, selection challenges, international matches and important moments in Dhoni's career.",
- message:"Success comes through patience, confidence, discipline and continuous practice.",
- motivation:"The movie motivates young people to follow their dreams and remain calm during difficult situations.",
- conclusion:"The film presents the journey of a determined sportsman who achieves success through dedication and hard work.",
- uses:"Useful for sports motivation, leadership development, teamwork, career planning and time management."
+
+ intro:`M.S. Dhoni: The Untold Story is an Indian biographical sports film.
+ The movie was released in the year 2016.
+ It was directed by Neeraj Pandey.
+ Sushant Singh Rajput plays the role of M.S. Dhoni.
+ The film is based on the life of Indian cricketer Mahendra Singh Dhoni.
+ It presents his journey from Ranchi to international cricket.
+ Dhoni develops an interest in sports during his childhood.
+ He initially plays football and later becomes interested in cricket.
+ His talent is recognised by his school cricket coach.
+ His family supports him but also worries about his career.
+ Dhoni faces difficulties while trying to become a professional cricketer.
+ He works as a railway ticket collector for a period.
+ He continues practising cricket while managing his job.
+ His dedication helps him get opportunities in professional cricket.
+ The movie shows his personal and professional challenges.
+ It teaches the importance of patience and determination.`,
+
+ story:`The story begins with Dhoni's childhood in Ranchi.
+ He develops an interest in sports and becomes a talented goalkeeper.
+ His school coach recognises his cricketing ability.
+ Dhoni starts playing cricket and works hard to improve his skills.
+ He faces difficulties while trying to enter professional cricket.
+ He gets a job as a railway ticket collector.
+ He continues practising while managing his professional responsibilities.
+ His performances help him enter the Indian cricket team.
+ He faces personal challenges and important career decisions.
+ His hard work helps him become a successful Indian cricket captain.`,
+
+ action:`Dhoni practises cricket regularly to improve his batting and wicketkeeping.
+ He participates in local and domestic cricket matches.
+ He manages his railway job along with his sports career.
+ He faces selection challenges before entering the national team.
+ He plays important matches for the Indian cricket team.
+ His leadership and calm decisions help him achieve success.`,
+
+ message:`Success requires patience, practice and dedication.
+ We should never stop working towards our dreams.
+ Family support can help us face difficult situations.
+ A good leader remains calm under pressure.
+ Hard work and confidence create opportunities.`,
+
+ motivation:`The movie motivates young people to follow their dreams.
+ It encourages regular practice and self-improvement.
+ It teaches us to remain patient during difficult times.
+ It inspires students to balance responsibilities and ambitions.
+ It shows that determination can lead to great achievements.`,
+
+ conclusion:`M.S. Dhoni: The Untold Story is an inspiring sports biography.
+ It presents the journey of a talented boy from Ranchi.
+ Dhoni faces many difficulties before becoming an international cricketer.
+ His dedication helps him improve his sporting abilities.
+ The film highlights the importance of family and guidance.
+ It shows the value of leadership and calm decision-making.
+ It motivates young people to follow their dreams.
+ Overall, the movie teaches patience, discipline and hard work.`,
+
+ uses:`This movie can be used for sports motivation.
+ It helps students understand the importance of regular practice.
+ It teaches leadership and decision-making skills.
+ It encourages teamwork and discipline.
+ It can be used for career guidance discussions.
+ It inspires young people to develop confidence and patience.`
 },
 {
  title:"Chak De! India", year:2007, genre:"Sports / Drama", director:"Shimit Amin",
@@ -224,47 +702,7 @@ function showFavorites() {
   hideAllViews();
   document.getElementById("favoritesView").classList.remove("hidden");
   const savedMovies = movies.filter(movie => favorites.includes(movie.title));
-  function renderMovies(list, containerId = "movieGrid") {
-  const container = document.getElementById(containerId);
-
-  if (list.length === 0) {
-    container.innerHTML =
-      '<p class="empty-message">No movies found.</p>';
-    return;
-  }
-
-  container.innerHTML = list.map(movie => `
-    <article class="movie-card">
-      <img
-        class="poster-image"
-        src="${movie.poster || ''}"
-        alt="${movie.title} Poster"
-        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-      >
-
-      <div class="poster poster-fallback" style="display:none">
-        ${movie.title}
-      </div>
-
-      <div class="card-info">
-        <h3>${movie.title}</h3>
-        <p>${movie.year} | ${movie.genre}</p>
-
-        <div class="card-actions">
-          <button onclick="openMovie('${movie.title}')">
-            View Details
-          </button>
-
-          <button class="fav-btn"
-            onclick="toggleFavorite('${movie.title}')">
-            ${favorites.includes(movie.title) ? "♥" : "♡"}
-          </button>
-        </div>
-      </div>
-    </article>
-  `).join("");
-}
-(savedMovies, "favoriteGrid");
+  renderMovies(savedMovies, "favoriteGrid");
   window.scrollTo(0, 0);
 }
 
